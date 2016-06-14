@@ -1,1 +1,1 @@
-app = angular.module('gplus', [])
+app = angular.module('GPlusClone', ['Devise'])

@@ -3,3 +3,4 @@
 
 asset 'bootstrap-sass'
 asset 'angular'
+asset 'angular-devise'

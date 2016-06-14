@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require angular
+//= require angular-devise
 //= require angular-rails-templates
 //
 // Templates in app/assets/javascript/templates

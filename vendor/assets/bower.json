@@ -2,6 +2,7 @@
   "name": "dsl-generated dependencies",
   "dependencies": {
     "bootstrap-sass": "latest",
-    "angular": "latest"
+    "angular": "latest",
+    "angular-devise": "latest"
   }
 }
