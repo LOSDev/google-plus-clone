@@ -3,4 +3,5 @@
 
 asset 'bootstrap-sass'
 asset 'angular'
+asset 'angular-route'
 asset 'angular-devise'

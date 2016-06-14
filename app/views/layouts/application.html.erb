@@ -2,13 +2,12 @@
 <html ng-app="GPlusClone">
 <head>
   <title>G-Plus Clone</title>
+  <base href="/">
   <%= stylesheet_link_tag    'application' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="badge">
-  <span class="glyphicon glyphicon-heart">{{ 1 + 1 }}</span>
-</div>
+  <div ng-view class="container"></div>
 </body>
 </html>
