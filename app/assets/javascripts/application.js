@@ -15,8 +15,11 @@
 //= require angular
 //= require angular-route
 //= require angular-devise
+//= require ng-dialog
 //= require angular-rails-templates
 //
 // Templates in app/assets/javascript/templates
+//= require angular-ui-notification
+
 //= require_tree ./templates
 //= require_tree .

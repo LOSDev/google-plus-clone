@@ -1,0 +1,11 @@
+<posts posts="posts" ng-show="posts && posts.length"></posts>
+<a class="btn btn-primary btn-fab btn-raised mdi-content-add btn-add-new-post btn-lg"
+  href
+  ng-show="signedIn()"
+  ng-dialog="posts/new-post.html"
+  ng-dialog-class="ngdialog-theme-default"
+  ng-dialog-controller="NewPostCtrl"
+  ng-dialog-close-previous>
+  New Post
+
+</a>

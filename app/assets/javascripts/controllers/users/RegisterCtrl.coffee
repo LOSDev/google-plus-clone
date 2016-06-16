@@ -4,8 +4,14 @@ angular.module('GPlusClone')
   ($location, $scope, Auth) ->
     $scope.user = {}
 
+    if Auth.isAuthenticated()
+      $location.url('/')
+
     $scope.register = ->
-      console.log $scope.user
       Auth.register($scope.user).then ->
-        $state.go('home')
+
+    $scope.$on('devise:new-registration', (event, user) ->
+      Auth.login(user).then (resp) -> $location.url('/')
+    )
+
   ])

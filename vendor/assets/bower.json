@@ -4,6 +4,8 @@
     "bootstrap-sass": "latest",
     "angular": "latest",
     "angular-route": "latest",
-    "angular-devise": "latest"
+    "angular-devise": "latest",
+    "angular-ui-notification": "latest",
+    "ng-dialog": "latest"
   }
 }
