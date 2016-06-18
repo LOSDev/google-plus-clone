@@ -15,6 +15,14 @@ app = angular.module('GPlusClone', ['Devise', 'ngRoute', 'templates', 'ui-notifi
     controller: 'LoginCtrl',
     templateUrl: 'users/login.html'
   })
+  .when('/+:username/settings', {
+    controller: 'UserSettingsCtrl',
+    templateUrl: 'users/userSettings.html'
+  })
+  .when('/+:username', {
+    controller: 'UserDetailsCtrl',
+    templateUrl: 'users/userDetails.html'
+  })
   .otherwise('/')
 
   NotificationProvider.setOptions(

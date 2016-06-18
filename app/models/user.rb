@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   validates :last_name, length: {maximum: 40}
   validates :tagline, length: {maximum: 140}
 
-  has_many :posts
+  has_many :posts, dependent: :destroy
 
   def full_name
     "#{first_name} #{last_name}"

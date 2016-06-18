@@ -1,17 +1,17 @@
 angular.module('GPlusClone')
-    .factory('Posts', ['$http', ($http) ->
+  .factory('Posts', ['$http', ($http) ->
 
-      urlBase = '/posts'
-      o = {}
+    urlBase = '/posts'
+    o = {}
 
-      o.getPosts = ->
-        return $http.get(urlBase + '.json')
+    o.getPosts = ->
+      return $http.get(urlBase + '.json')
 
-      o.getPost = (id) ->
-        return $http.get(urlBase + '/' + id + '.json')
+    o.getPost = (id) ->
+      return $http.get(urlBase + '/' + id + '.json')
 
-      o.createPost = (post) ->
-        return $http.post(urlBase + '.json', post)
+    o.createPost = (post) ->
+      return $http.post(urlBase + '.json', post)
 
-      return o
+    return o
 ])
