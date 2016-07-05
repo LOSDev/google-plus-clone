@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+.DS_Store
+/vendor/assets/bower_components

@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Thinkster.io Tutorial
+==== Building Web Applications with Django and AngularJS
 
-Things you may want to cover:
+Except I built it with Rails
 
-* Ruby version
+A very simple Goolge+ clone
 
-* System dependencies
+* Ruby 2.2
 
-* Configuration
+* Rails 4.2
 
-* Database creation
+* AngularJS 1.5.6
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Don't forget to run 'rake bower:install' to install frontend dependencies
